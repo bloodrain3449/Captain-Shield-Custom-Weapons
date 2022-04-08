@@ -1,0 +1,62 @@
+"items_game"
+{
+	"prefabs"
+	{
+		"weapon_capshield_prefab"
+		{
+			"prefab"		"equipment"
+			"item_class"		"weapon_shield"
+			"item_name"		"Vibranium Shield"
+			"item_description"		"This shield is composed of proto-adamantium, a never-duplicated combination of vibranium, steel alloy, and an unknown catalyst. This material absorbs kinetic energy, transferring very little and thus preventing carrier from feeling recoil or transferred impact forces when blocking attacks. It is virtually indestructible under normal conditions."
+			"image_inventory"		"econ/weapons/base_weapons/weapon_shield"
+			"icon_default_image"		"materials/icons/inventory_icon_weapon_shield.vtf"
+			"model_player"		"models/weapons/v_shield.mdl"
+			"model_world"		"models/weapons/w_eq_shield.mdl"
+			"model_dropped"		"models/weapons/w_eq_shield_back.mdl"
+			"item_quality"		"normal"
+			"baseitem"		"0"
+			"default_slot_item"		"0"
+			"item_sub_position"		"none"
+			"item_gear_slot"		"boost"
+			"item_gear_slot_position"		"1"
+			"used_by_classes"
+			{
+				"terrorists"		"1"
+				"counter-terrorists"		"1"
+			}
+			"attributes"
+			{
+				"max player speed"	"250"
+				"in game price"		"2500"
+				"damage"		"100"
+				"cycletime"		"0.5"
+				"weapon weight"		"0"
+			}
+			"visuals"
+			{
+				"weapon_type"		"Shield"
+			}
+		}
+	}
+	"items"
+	{
+		"31"
+		{
+			"name"		"weapon_capshield"
+			"prefab"		"weapon_capshield_prefab"
+			"item_quality"		"normal"
+			"baseitem"		"1"
+			"default_slot_item"		"0"
+			"item_sub_position"		"equipment2"
+		}
+		"322"
+		{
+			"name"		"weapon_taser"
+			"prefab"		"weapon_taser_prefab"
+			"item_quality"		"normal"
+			"baseitem"		"1"
+			"default_slot_item"		"1"
+			"item_sub_position"		"equipment2"
+		}
+	}
+}

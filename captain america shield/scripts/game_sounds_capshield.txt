@@ -1,0 +1,14 @@
+//DMR
+"Survival.ShieldPush"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_75dB"
+	"rndwave"
+	  {
+        "wave"		"~)survival/sheild_push_01.wav"
+        "wave"		"~)survival/sheild_push_02.wav"
+        "wave"		"~)survival/sheild_push_03.wav"
+    }
+	
+}
